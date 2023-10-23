@@ -27,6 +27,7 @@ function App() {
     localStorage.removeItem("isLoggedIn");
     setIsLoggedIn(false);
   };
+  //깃 토큰 연결 추가
 
   return (
     <AuthContext.Provider
